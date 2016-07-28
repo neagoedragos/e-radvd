@@ -27,7 +27,7 @@
 #include <libgen.h>
 
 #ifdef HAVE_GETOPT_LONG
-
+/*.. .... */
 /* *INDENT-OFF* */
 static char usage_str[] = {
 "\n"
@@ -917,3 +917,4 @@ static void usage(char const *pname)
 	fprintf(stderr, "usage: %s %s\n", pname, usage_str);
 	exit(1);
 }
+# test line 
